@@ -4,7 +4,7 @@
             "CardName": "Mew ex",
             "CardSet": "MEW",
             "CardNumber": 151,
-            "Amount": 7
+            "Amount": 1
         },
         {
             "CardName": "Gimmighoul",
@@ -28,18 +28,6 @@
             "CardName": "Lunatone",
             "CardSet": "MEG",
             "CardNumber": 74,
-            "Amount": 2
-        },
-        {
-            "CardName": "Genesect ex",
-            "CardSet": "BLK",
-            "CardNumber": 67,
-            "Amount": 1
-        },
-        {
-            "CardName": "Fezandipiti ex",
-            "CardSet": "SFA",
-            "CardNumber": 38,
             "Amount": 2
         },
         {

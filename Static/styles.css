@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: space-between;
     opacity: 0;
-    padding: 0 10px;
+
 
 }
 
@@ -135,5 +135,10 @@ body::-webkit-scrollbar {
 }
 
 .buttons button {
-    color: black
+    color: white !important;
+    height: 300vh;
+    width: 80px;
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    font-size: 80px;
 }
