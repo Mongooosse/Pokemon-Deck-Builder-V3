@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+<title> Dis my shit</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="container">
+    <div class="center-box">
+        <h1>Add Cards to Your Storage</h1>
+        <div class="box-elements">
+            <form action="/submit" method="POST" class=" input-wrapper">
+                <input type="text" name="cardName" placeholder="Input Card Name">
+                <input type="text" name="cardSet" placeholder="Input Card Set">
+                <input type="text" name="cardNumber" placeholder="Input Card Number">
+                <input type="text" name="amount" placeholder="Input amount">
+                <button type="submit">Go</button>
+            </form>
+
+        </div>
+        <div class="box-storage-selector">
+            <label for="Storage">Current Storage: {{activeStorage}}</label>
+            <form action="/submitStorage" method="POST" class="storage-wrapper">
+                <select name="storage" id="storage">
+                    {% for key in keyData %}
+                    <option value="{{key}}">{{key}}</option>
+                    {% endfor %}
+                </select>
+                <button type="submitStorage">Go</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="images">
+    <div class="image-grid">
+        {% for linked in linkData %}
+        <div class="image-item">
+            <img src={{linked[0]}} class="hide-on-hover">
+            <div class="buttons">
+                <form action="/imageAction" method="POST">
+                    <input type="hidden" name="cardName" value="{{ linked[1]['CardName'] }}">
+                    <input type="hidden" name="cardSet" value="{{ linked[1]['CardSet'] }}">
+                    <input type="hidden" name="cardNumber" value="{{ linked[1]['CardNumber'] }}">
+                    <button type="submit" name="action" value="remove">-</button>
+                    <button type="submit" name="action" value="add">+</button>
+                </form>
+            </div>
+            <div class="quantity">
+                <h1> {{linked[1]["Amount"]}}</h1>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
