@@ -4,7 +4,7 @@
             "CardName": "Mew ex",
             "CardSet": "MEW",
             "CardNumber": 151,
-            "Amount": 1
+            "Amount": 2
         },
         {
             "CardName": "Gimmighoul",
@@ -31,16 +31,10 @@
             "Amount": 2
         },
         {
-            "CardName": "Munkidori",
-            "CardSet": "TWM",
-            "CardNumber": 95,
-            "Amount": 1
-        },
-        {
             "CardName": "Arven",
             "CardSet": "OBF",
             "CardNumber": 186,
-            "Amount": 4
+            "Amount": 6
         },
         {
             "CardName": "Boss's Orders",
