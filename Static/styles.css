@@ -102,6 +102,10 @@ body::-webkit-scrollbar {
     opacity: 1;
 }
 
+.image-item:hover .buttons {
+    opacity: 1;
+}
+
 .image-item img {
     display: block;
     width: 100%;
@@ -113,14 +117,23 @@ body::-webkit-scrollbar {
 
 .buttons {
     position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
     inset: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+    opacity: 0;
+    padding: 0 10px;
+
 }
 
 .images {
     flex: 1;
     padding: 10px;
+}
+
+.buttons button {
+    color: black
 }

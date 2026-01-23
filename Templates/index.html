@@ -38,6 +38,9 @@
         {% for linked in linkData %}
         <div class="image-item">
             <img src={{linked[0]}} class="hide-on-hover">
+            <div class="quantity">
+                <h1> {{linked[1]["Amount"]}}</h1>
+            </div>
             <div class="buttons">
                 <form action="/imageAction" method="POST">
                     <input type="hidden" name="cardName" value="{{ linked[1]['CardName'] }}">
@@ -46,9 +49,6 @@
                     <button type="submit" name="action" value="remove">-</button>
                     <button type="submit" name="action" value="add">+</button>
                 </form>
-            </div>
-            <div class="quantity">
-                <h1> {{linked[1]["Amount"]}}</h1>
             </div>
         </div>
         {% endfor %}
