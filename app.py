@@ -66,11 +66,3 @@ def imageAction():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-#####
-# LOOP THROUGH THE KEYS OF THE JSON FILE AND PASS IT THROUGH INDEX
-# {% for key in dict %}
-#   {% for card in cardData[key] %}
-
-# when hovering over particular image grey out and show card amount
