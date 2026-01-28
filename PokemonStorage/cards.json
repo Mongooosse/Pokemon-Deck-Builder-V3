@@ -10,31 +10,25 @@
             "CardName": "Gimmighoul",
             "CardSet": "SSP",
             "CardNumber": 97,
-            "Amount": 2
+            "Amount": 3
         },
         {
             "CardName": "Gholdengo ex",
             "CardSet": "PAR",
             "CardNumber": 139,
-            "Amount": 6
+            "Amount": 7
         },
         {
             "CardName": "Solrock",
             "CardSet": "MEG",
             "CardNumber": 75,
-            "Amount": 2
+            "Amount": 3
         },
         {
             "CardName": "Lunatone",
             "CardSet": "MEG",
             "CardNumber": 74,
             "Amount": 2
-        },
-        {
-            "CardName": "Arven",
-            "CardSet": "OBF",
-            "CardNumber": 186,
-            "Amount": 6
         },
         {
             "CardName": "Boss's Orders",
@@ -119,24 +113,6 @@
             "CardSet": "PAL",
             "CardNumber": 171,
             "Amount": 4
-        },
-        {
-            "CardName": "Fighting Energy",
-            "CardSet": "MEE",
-            "CardNumber": 6,
-            "Amount": 7
-        },
-        {
-            "CardName": "Metal Energy",
-            "CardSet": "MEE",
-            "CardNumber": 8,
-            "Amount": 3
-        },
-        {
-            "CardName": "Darkness Energy",
-            "CardSet": "MEE",
-            "CardNumber": 7,
-            "Amount": 1
         }
     ],
     "Deck Lists": [],
