@@ -64,6 +64,11 @@ def imageAction():
     return redirect(url_for('index'))
 
 
+@app.route('/toParser', methods=['POST'])
+def toParser():
+    return render_template("parser.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 

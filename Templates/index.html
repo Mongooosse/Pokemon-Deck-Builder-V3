@@ -15,7 +15,7 @@
                 <input type="text" name="cardName" placeholder="Input Card Name">
                 <input type="text" name="cardSet" placeholder="Input Card Set">
                 <input type="text" name="cardNumber" placeholder="Input Card Number">
-                <input type="text" name="amount" placeholder="Input amount">
+                <input type="text" name="amount" placeholder="Input Amount">
                 <button type="submit">Go</button>
             </form>
 
@@ -29,6 +29,11 @@
                     {% endfor %}
                 </select>
                 <button type="submitStorage">Go</button>
+            </form>
+        </div>
+        <div class="toParser">
+            <form action="/toParser" method="POST">
+                <button type="go">go</button>
             </form>
         </div>
     </div>
