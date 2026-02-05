@@ -107,10 +107,11 @@ def addOrRemove(StorageOption, jsonFile, vals, oneOrZero):
             if card["CardName"] == vals[0] and card["CardSet"] == vals[1] and card["CardNumber"] == vals[2]:
                 card["Amount"] -= 1
             if card["Amount"] == 0:
-                newCards = []
+                cardPos = 0
                 for card in cards[StorageOption]:
-                    if card["Amount"] != 0:
-                        newCards += [card]
-                cards[StorageOption] = newCards
+                    if card["Amount"] == 0:
+                        cards[StorageOption].pop(cardPos)
+                    else:
+                        cardPos += 1
 
     saveCards(cards, jsonFile)

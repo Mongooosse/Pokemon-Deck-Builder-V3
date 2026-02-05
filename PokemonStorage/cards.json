@@ -40,13 +40,13 @@
             "CardName": "Professor Turo's Scenario",
             "CardSet": "PAR",
             "CardNumber": 171,
-            "Amount": 4
+            "Amount": 5
         },
         {
             "CardName": "Lana's Aid",
             "CardSet": "TWM",
             "CardNumber": 155,
-            "Amount": 1
+            "Amount": 2
         },
         {
             "CardName": "Superior Energy Retrieval",
@@ -95,24 +95,6 @@
             "CardSet": "TEF",
             "CardNumber": 157,
             "Amount": 1
-        },
-        {
-            "CardName": "Air Balloon",
-            "CardSet": "BLK",
-            "CardNumber": 79,
-            "Amount": 2
-        },
-        {
-            "CardName": "Vitality Band",
-            "CardSet": "SVI",
-            "CardNumber": 197,
-            "Amount": 1
-        },
-        {
-            "CardName": "Artazon",
-            "CardSet": "PAL",
-            "CardNumber": 171,
-            "Amount": 4
         }
     ],
     "Deck Lists": [],
