@@ -154,3 +154,7 @@ body::-webkit-scrollbar {
 option {
     color: black !important;
 }
+
+.center-box button {
+    color: black;
+}

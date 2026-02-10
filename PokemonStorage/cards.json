@@ -207,6 +207,12 @@
             "CardSet": "SSP",
             "CardNumber": 250,
             "Amount": 1
+        },
+        {
+            "CardName": "Drampa",
+            "CardSet": "TEF",
+            "CardNumber": 139,
+            "Amount": 1
         }
     ]
 }

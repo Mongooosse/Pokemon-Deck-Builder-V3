@@ -67,7 +67,13 @@ def imageAction():
 
 @app.route('/toParser', methods=['POST'])
 def toParser():
-    return render_template("parser.html")
+    if "storageOption" not in session:
+        session["storageOption"] = "Main Storage"
+    preCards = (POKEMONDECKBUILDER.loadCards(jsonFile))
+    cards = preCards[session["storageOption"]]
+    linkList = POKEMONDECKBUILDER.listopenurl(cards)
+    Limitless = POKEMONDECKBUILDER.limitlessFormat(cards)
+    return render_template("parser.html", cardData=cards, linkData=linkList, activeStorage=session["storageOption"], keyData=preCards, Limitless=Limitless)
 
 
 if __name__ == "__main__":

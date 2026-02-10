@@ -1,4 +1,4 @@
-{% extends "second.html" %}
+{% extends "base.html" %}
 
 
 {% block head %}
@@ -7,10 +7,15 @@
 
 
 {% block body %}
-<h1> PENIS PENIS</h1>
-<div class="fromParser">
-    <form action="/" method="POST">
-        <button type="back">back</button>
-    </form>
+<div class="container">
+    <div class="center-box">
+        <form action="/add" method="POST">
+            <input type="text" name="Decklist" placeholder="Input deck text from Limitless">
+        </form>
+        <form action="/" method='GET'>
+            <button type='Back'>Back</button>
+        </form>
+    </div>
 </div>
+
 {% endblock %}
