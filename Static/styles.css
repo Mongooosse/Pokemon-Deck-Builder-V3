@@ -135,7 +135,6 @@ body::-webkit-scrollbar {
 }
 
 .buttons button {
-    color: white !important;
     height: 300vh;
     width: 50px;
     background: rgba(0, 0, 0, 0);
@@ -145,4 +144,13 @@ body::-webkit-scrollbar {
 
 .buttons button:hover {
     background: rgba(0, 0, 0, .6);
+}
+
+.box-storage-selector button {
+    color: black !important;
+}
+
+.box-storage-selector select,
+option {
+    color: black !important;
 }

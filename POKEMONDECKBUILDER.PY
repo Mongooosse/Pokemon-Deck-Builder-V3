@@ -24,7 +24,7 @@ def openurl(card):
             "BLK": "sv10.5b"
         },
         "me": {
-            "MEG": "me01", "PFL": "me02"
+            "MEG": "me01", "PFL": "me02", "ASC": "me02.5", "MEP": "mep"
         }
     }
 
@@ -115,3 +115,11 @@ def addOrRemove(StorageOption, jsonFile, vals, oneOrZero):
                         cardPos += 1
 
     saveCards(cards, jsonFile)
+
+
+def limitlessFormat(cards):
+    formatted = []
+    for card in cards:
+        formatted += [(str(card["Amount"]) + ' ' + card["CardName"] + ' ' +
+                      card["CardSet"] + ' ' + str(card["CardNumber"]))]
+    return formatted

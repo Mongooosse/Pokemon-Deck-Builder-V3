@@ -98,5 +98,115 @@
         }
     ],
     "Deck Lists": [],
-    "PENISPENIS": []
+    "PENISPENIS": [],
+    "NEEDED CARDS": [
+        {
+            "CardName": "N's Zekrom",
+            "CardSet": "ASC",
+            "CardNumber": 155,
+            "Amount": 2
+        },
+        {
+            "CardName": "Poke Pad",
+            "CardSet": "ASC",
+            "CardNumber": 198,
+            "Amount": 3
+        },
+        {
+            "CardName": "Dreepy",
+            "CardSet": "ASC",
+            "CardNumber": 247,
+            "Amount": 4
+        },
+        {
+            "CardName": "Drakloak",
+            "CardSet": "ASC",
+            "CardNumber": 248,
+            "Amount": 4
+        },
+        {
+            "CardName": "Dragapult ex",
+            "CardSet": "PRE",
+            "CardNumber": 165,
+            "Amount": 3
+        },
+        {
+            "CardName": "Munkidori",
+            "CardSet": "SFA",
+            "CardNumber": 72,
+            "Amount": 4
+        },
+        {
+            "CardName": "Fezandipiti ex",
+            "CardSet": "ASC",
+            "CardNumber": 288,
+            "Amount": 1
+        },
+        {
+            "CardName": "Bloodmoon Ursaluna ex",
+            "CardSet": "PRE",
+            "CardNumber": 168,
+            "Amount": 1
+        },
+        {
+            "CardName": "Ultra Ball",
+            "CardSet": "ASC",
+            "CardNumber": 264,
+            "Amount": 3
+        },
+        {
+            "CardName": "N's Zoroark",
+            "CardSet": "ASC",
+            "CardNumber": 286,
+            "Amount": 4
+        },
+        {
+            "CardName": "Latias ex",
+            "CardSet": "SSP",
+            "CardNumber": 239,
+            "Amount": 1
+        },
+        {
+            "CardName": "Boss's Orders",
+            "CardSet": "ASC",
+            "CardNumber": 256,
+            "Amount": 3
+        },
+        {
+            "CardName": "Budew",
+            "CardSet": "ASC",
+            "CardNumber": 221,
+            "Amount": 2
+        },
+        {
+            "CardName": "Night Stretcher",
+            "CardSet": "MEG",
+            "CardNumber": 173,
+            "Amount": 2
+        },
+        {
+            "CardName": "Jamming Tower",
+            "CardSet": "ASC",
+            "CardNumber": 261,
+            "Amount": 3
+        },
+        {
+            "CardName": "Lillie's Determination",
+            "CardSet": "MEG",
+            "CardNumber": 169,
+            "Amount": 4
+        },
+        {
+            "CardName": "N's PP Up",
+            "CardSet": "ASC",
+            "CardNumber": 262,
+            "Amount": 1
+        },
+        {
+            "CardName": "Gravity Mountain",
+            "CardSet": "SSP",
+            "CardNumber": 250,
+            "Amount": 1
+        }
+    ]
 }

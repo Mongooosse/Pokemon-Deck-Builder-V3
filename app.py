@@ -25,7 +25,8 @@ def index():
     preCards = (POKEMONDECKBUILDER.loadCards(jsonFile))
     cards = preCards[session["storageOption"]]
     linkList = POKEMONDECKBUILDER.listopenurl(cards)
-    return render_template("index.html", cardData=cards, linkData=linkList, activeStorage=session["storageOption"], keyData=preCards)
+    Limitless = POKEMONDECKBUILDER.limitlessFormat(cards)
+    return render_template("index.html", cardData=cards, linkData=linkList, activeStorage=session["storageOption"], keyData=preCards, Limitless=Limitless)
 
 
 @app.route('/submit', methods=['POST'])
